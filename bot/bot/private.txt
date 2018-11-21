@@ -1,0 +1,5 @@
+reddit = praw.Reddit(client_id=os.environ.get('CLIENT_ID'), client_secret=os.environ.get('CLIENT_SECRET'),
+                     user_agent=os.environ.get('AGENT'), password=os.environ.get('REDDIT_PASS'),
+                     username=os.environ.get('REDDIT_USER'))
+
+python MILBitchBot2/MILBitchBot2.py --env --cron
