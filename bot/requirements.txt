@@ -1,6 +1,6 @@
 plotly
 psaw
-Django==2.1.2
+Django==2.2.10
 backports.functools-lru-cache==1.5
 bugsnag==3.4.3
 certifi==2018.8.24
